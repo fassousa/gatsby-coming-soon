@@ -1,0 +1,7 @@
+.background {
+  background-image: url(../images/desktop-soon.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: cover;
+  background-color: black;
+}
