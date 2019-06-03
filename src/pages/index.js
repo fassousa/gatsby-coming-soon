@@ -1,20 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+import "./styles.scss"
 
-import Image from "../components/image"
-
-const IndexPage = () => (
-  <div
-    className="background"
-    style={{
-      // Defaults are overwrite-able by setting one or each of the following:
-      backgroundSize: "contain",
-      backgroundPosition: "center",
-      backgroundRepeat: "cover",
-    }}
-  >
-    <Image />
-  </div>
-)
+const IndexPage = () => <div className="background" />
 
 export default IndexPage
